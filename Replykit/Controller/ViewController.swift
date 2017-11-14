@@ -10,16 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var statusLbl: UILabel!
+    @IBOutlet weak var imagePicker: UISegmentedControl!
+    @IBOutlet weak var selectedImage: UIImageView!
+    @IBOutlet weak var microphoneAccess: UISwitch!
+    @IBOutlet weak var recordBtn: UIButton!
+    
+    
+    @IBAction func imagePicker(_ sender: UISegmentedControl) {
+    
+    
+        
+    
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func recordAction(_ sender: Any) {
+    
+        
+        
+    
     }
-
+    
 
 }
 
